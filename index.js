@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 
 // Root route
 app.get('/', (req, res) => {
-  res.send('Hello from AWS Deployment Demo!');
+  res.send('Hello from AWS Deployment Demo(argo-cd is watching)!');
 });
 
 // Start server
