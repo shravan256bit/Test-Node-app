@@ -6,7 +6,7 @@ image:
 
 service:
   type: NodePort
-  port: 80          # Service port
+  port: 80          # Service 
   targetPort: 3000  # Container port
   nodePort: 30011   # NodePort
 
