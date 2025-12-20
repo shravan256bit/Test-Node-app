@@ -1,0 +1,12 @@
+replicaCount: 3
+
+image:
+  repository: shravan256bit/nodeimage
+  tag: v2
+
+service:
+  type: NodePort
+  port: 80          # Service port
+  targetPort: 3000  # Container port
+  nodePort: 30011   # NodePort
+
