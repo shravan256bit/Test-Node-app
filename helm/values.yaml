@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: shravan256bit/nodeimage
-  tag: latest
+  tag: 18
 
 service:
   type: NodePort
